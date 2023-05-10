@@ -1,0 +1,48 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500&family=Karla&display=swap');
+
+/* Define color variables */
+:root {
+  --primary-color: #495E57;
+  --secondary-color-1: #F4CE14;
+  --secondary-color-2: #EE9972;
+  --secondary-color-3: #FBDABB;
+  --highlight-color-1: #EDEFEE;
+  --highlight-color-2: #333333;
+}
+
+/* Style headlines */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Markazi Text', serif;
+  color: var(--secondary-color-1);
+  background-color: var(--primary-color)
+}
+
+/* Style paragraph text */
+p {
+  font-family: 'Karla', sans-serif;
+  color: var(--highlight-color-2);
+}
+
+/* Style button */
+button {
+  background-color: var(--primary-color);
+  color: var(--highlight-color-1);
+}
+
+/* Style form elements */
+label, input, select {
+  color: var(--primary-color7);
+}
+
+/* Add any other specific styles you need */
+.logo {
+    height: 40px;  /* Adjust as needed */
+    width: auto;   /* This keeps the aspect ratio */
+  }
+
+  .nav > li {
+    display: grid;
+    align-items: center;
+  }
+  
